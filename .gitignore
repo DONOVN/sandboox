@@ -2,8 +2,8 @@
 .vscode/
 *.log
 *.tmp
-node_modules/
-dist/
+git-root/node_modules/
+git-root/dist/
 AppData/
 Contacts/
 Downloads/
