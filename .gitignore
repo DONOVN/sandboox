@@ -1,0 +1,19 @@
+# .gitignore
+.vscode/
+*.log
+*.tmp
+node_modules/
+dist/
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+*.pcap
+*.ini
