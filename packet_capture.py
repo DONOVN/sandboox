@@ -7,8 +7,8 @@ def capture_packets(interface):
     print(f"Starting packet capture on interface {interface}...")
     packets = sniff(iface=interface, timeout=180)
     filename = f"packets_{datetime.now().strftime('%Y%m%d_%H%M%S')}.pcap"
-    wrpcap(capture_sch , packets)
-    print(f"Packet capture complete. Saved to capture_sch")
+    wrpcap(filename, packets)
+    print(f"Packet capture complete. Saved to {filename}")
 # Specify the network interface you want to capture packets on
 network_interface = "Wi-Fi"  # Replace with your desired interface
 
